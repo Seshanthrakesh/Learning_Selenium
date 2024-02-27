@@ -15,7 +15,7 @@ public class S8_SwitchTo_Alert1 {
 		Alert alerts =driver.switchTo().alert();
 		Thread.sleep(4000);
 		alerts.accept();//clicking on OK button
-		//alert.dismiss(); //clicking on close or cancel button	
+		//567io;' //clicking on close or cancel button	
 		driver.close();
 	}
 

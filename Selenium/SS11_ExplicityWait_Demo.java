@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+                         
 /*
  * 
  * Explicit wait is applicable for a specific webElement. If you think if a particular webelement is taking more than time than other elements, then we 
@@ -33,9 +33,5 @@ public class SS11_ExplicityWait_Demo {
 		
 		//searchBox.sendKeys("explicit wait");
 		driver.findElement(By.name("q")).sendKeys("Explicit wait");
-		
-		
-
 	}
-
 }
